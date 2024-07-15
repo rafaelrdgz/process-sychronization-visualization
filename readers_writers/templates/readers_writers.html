@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Readers-Writers Simulation</title>
+</head>
+<body>
+    <h1>Readers-Writers Simulation</h1>
+    <button onclick="startSimulation()">Start Simulation</button>
+    <button onclick="stopSimulation()">Stop Simulation</button>
+    <button onclick="showEventLog()">Show Event Log</button>
+
+    <div id="event-log"></div>
+
+    <script>
+        function startSimulation() {
+            fetch('/readers_writers/start/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                body: 'readers=5&writers=2&max_read_time=3&max_write_time=3'
+            })
+            .then(response => response.json())
+            .then(data => alert(data.status))
+            .catch(error => console.error('Error:', error));
+        }
+
+        function stopSimulation() {
+            fetch('/readers_writers/stop/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                }
+            })
+            .then(response => response.json())
+            .then(data => alert(data.status))
+            .catch(error => console.error('Error:', error));
+        }
+
+        function showEventLog() {
+            fetch('/readers_writers/log/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === "Log retrieved") {
+                    const eventLogDiv = document.getElementById('event-log');
+                    eventLogDiv.innerHTML = JSON.stringify(data.log, null, 2);
+                } else {
+                    alert(data.status);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>

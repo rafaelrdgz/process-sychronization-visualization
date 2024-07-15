@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining Philosophers Problem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            margin: 10px 0;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dining Philosophers Problem</h1>
+    <button id="start-btn">Start Simulation</button>
+    <button id="stop-btn">Stop Simulation</button>
+    <button id="show-log-btn">Show Event Log</button>
+    <h2>Output:</h2>
+    <pre id="output"></pre>
+
+    <script>
+        document.getElementById('start-btn').addEventListener('click', function() {
+            fetch('/philosophers/start')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = 'Error: ' + error;
+                });
+        });
+
+        document.getElementById('stop-btn').addEventListener('click', function() {
+            fetch('/philosophers/stop')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = 'Error: ' + error;
+                });
+        });
+
+        document.getElementById('show-log-btn').addEventListener('click', function() {
+            fetch('/philosophers/log')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === "Log retrieved") {
+                        const output = document.getElementById('output');
+                        output.textContent = JSON.stringify(data.log, null, 2);
+                    } else {
+                        alert(data.status);
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = 'Error: ' + error;
+                });
+        });
+
+        window.addEventListener('beforeunload', function () {
+            fetch('/philosophers/stop');
+        });
+    </script>
+</body>
+</html>

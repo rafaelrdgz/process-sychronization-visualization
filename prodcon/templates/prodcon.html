@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producer-Consumer Problem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            margin: 10px 0;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Producer-Consumer Problem</h1>
+    <button id="start-btn">Start Producer-Consumer</button>
+    <button id="stop-btn">Stop Producer-Consumer</button>
+    <button id="get-list-btn">Get and Clear List</button>
+    <h2>Output:</h2>
+    <pre id="output"></pre>
+
+    <script>
+        let worker;
+
+        document.getElementById('start-btn').addEventListener('click', function() {
+            fetch('/prodcon/start')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = 'Error: ' + error;
+                });
+        });
+
+        document.getElementById('stop-btn').addEventListener('click', function() {
+            fetch('/prodcon/stop')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = 'Error: ' + error;
+                });
+        });
+
+        document.getElementById('get-list-btn').addEventListener('click', function() {
+            fetch('/prodcon/list')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('output').textContent = 'Error: ' + error;
+                });
+        });
+
+        window.addEventListener('beforeunload', function () {
+            fetch('/prodcon/stop');
+        });
+    </script>
+</body>
+</html>

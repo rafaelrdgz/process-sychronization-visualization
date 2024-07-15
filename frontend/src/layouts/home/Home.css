@@ -1,0 +1,83 @@
+/**
+ * 
+ * This CSS file contains styles for the home layout of the project.
+ */
+
+.home {
+  margin-top: -40px;
+  height: 100vh;
+  background-image: url("./home-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/**
+ * Styles for the title element in the home layout.
+ */
+.tittle {
+  font-size: 60px;
+  padding-top: 230px;
+  padding-left: 80px;
+  width: 800px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/**
+ * Styles for the button container in the home layout.
+ */
+.button-container {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+/**
+ * Styles for the buttons in the button container.
+ */
+.button-container button {
+  background-color: #f9f9f9;
+  color: #000;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/**
+ * Styles for the buttons on hover.
+ */
+.button-container button:hover {
+  background-color: #000;
+  color: #f9f9f9;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/**
+ * Styles for the description element in the home layout.
+ */
+.description {
+  padding-left: 80px;
+  width: 700px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 20px;
+}
+
+/**
+ * Styles for the links inside the button container.
+ */
+.button-container a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/**
+ * Styles for the links inside the buttons on hover.
+ */
+.button-container button:hover a {
+  color: #f9f9f9;
+}

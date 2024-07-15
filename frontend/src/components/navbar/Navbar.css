@@ -1,0 +1,21 @@
+.nav {
+    background: rgb(24 28 32);
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-left {
+    margin-left: 15px;
+}
+.nav-right {
+    margin-right: 15px;
+    display: flex;
+    gap: 50px;
+}
+.nav a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
