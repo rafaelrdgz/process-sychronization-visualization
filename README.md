@@ -8,7 +8,7 @@ Debes tener instalado Django para usar la aplicación. A continuación el comand
 
 ### `py -m pip install Django`
 
-Luego procede con este comando:
+Luego procede con este comando desde el directorio principal del proyecto:
 
 ### `python manage.py runserver`
 
@@ -38,6 +38,20 @@ Para ejecutar el programa de los lectores-escritores se debe ejecutar el siguien
 
 En este ejemplo [3] [3] [1] [1] indican la cantidad de lectores, cantidad de escritores, tiempo máximo en segundos que dura el proceso de lectura y tiempo maximo en segundos que dura el proceso de escritura respectivamente.
 
-### Todos los comandos citados deben ejecutarse desde el directorio principal del proyecto. 
+## ¿Cómo realizar cambios en la interfaz web?
 
-### En el fichero 'trace.txt' se almacena un resúmen estadístico de las ejecuciones de las aplicaciones por consola. 
+El backend de la aplicación se ejecuta sobre los ficheros guardados en '/frontend/build', por tanto los cambios efectuados en '/frontend/src' no serán visibles hasta que se haga build del proyecto utilizando el siguiente comando desde '/frontend':
+
+### `npm run build`
+
+En caso de no tener instaladas las dependencias del frontend, se debe ejecutar el siguiente comando desde '/frontend' antes de efectuar build del proyecto:
+
+### `npm install`
+ 
+#### Todos los comandos citados deben ejecutarse  usando la terminal con permisos de administrador. 
+
+#### En el fichero 'trace.txt' se almacena un resúmen estadístico de las ejecuciones de las aplicaciones por consola. 
+
+El modelo animado de la ejecución del problema productor-consumidor fue extraído de https://iximiuz.com/node-writable-streams/visual/?utm_medium=github&utm_source=gh-producer-consumer-vis
+
+El modelo animado de la ejecución del problema filósofos-comensales fue extraído de https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Computer%20Science/Dining%20Philosophers.nlogo
