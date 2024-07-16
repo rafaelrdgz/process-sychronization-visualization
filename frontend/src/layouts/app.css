@@ -99,3 +99,7 @@ p {
   color: #f9f9f9;
   transition: transform 0.3s ease-in-out;
 }
+
+.output{
+  text-align: center;
+}

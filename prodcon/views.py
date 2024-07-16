@@ -99,7 +99,7 @@ def start_prodcon(request):
         for i in range(num_consumers):
             threading.Thread(target=consumer, args=(q, empty_semaphore, full_semaphore, i + 1)).start()
 
-    return JsonResponse({"status": "Producer-Consumer threads started"})
+    return JsonResponse({"status": "Productor-Consumidor iniciará en pocos segundos."})
 
 def stop_prodcon(request):
     """
@@ -114,7 +114,7 @@ def stop_prodcon(request):
     """
     global running
     running = False
-    return JsonResponse({"status": "Producer-Consumer threads stopped"})
+    return JsonResponse({"status": "Productor-Consumidor se ha detenido, por favor, espere a que culmine el procesamiento de datos."})
 
 def get_and_clear_list(request):
     """

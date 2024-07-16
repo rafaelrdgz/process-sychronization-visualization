@@ -119,12 +119,12 @@ export default function DiningPhilosophers() {
           <button onClick={startSimulation}>Iniciar</button>
           <button onClick={stopSimulation}>Detener</button>
           <button onClick={clearTextArea}>Limpiar</button>
-          <h2>{output}</h2>
         </div>
         <div className="container-right">
           <Textarea content={textareaContent}></Textarea>
         </div>
       </div>
+      <h2 className="output">{output}</h2>
     </div>
   );
 }

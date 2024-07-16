@@ -126,9 +126,9 @@ def start_simulation(request):
             t.start()
             threads.append(t)
 
-        return JsonResponse({"status": "Simulation started"})
+        return JsonResponse({"status": "La simulación comenzará en pocos segundos."})
     else:
-        return JsonResponse({"status": "Simulation already running"})
+        return JsonResponse({"status": "La simulación ya se encuentre en ejecución."})
 
 # Función para detener la simulación
 @csrf_exempt
@@ -151,9 +151,9 @@ def stop_simulation(request):
         threads = []
         event_log = []
 
-        return JsonResponse({"status": "Simulation stopped"})
+        return JsonResponse({"status": "Lectores-Escritores se ha detenido, por favor, espere a que culmine el procesamiento de datos."})
     else:
-        return JsonResponse({"status": "No simulation running"})
+        return JsonResponse({"status": "No existe simulación en ejecución."})
 
 # Función para obtener y limpiar el registro de eventos
 @csrf_exempt

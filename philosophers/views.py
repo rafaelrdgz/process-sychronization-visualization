@@ -107,7 +107,7 @@ def start_simulation(request):
                 filosofo.start()
                 hilos_filosofos.append(filosofo)
 
-        return JsonResponse({"status": "Simulation started"})
+        return JsonResponse({"status": "La simulación comenzará en pocos segundos."})
     else:
         return JsonResponse({"status": "Invalid request method"}, status=405)
 
@@ -137,7 +137,7 @@ def stop_simulation(request):
     hilos_filosofos = []
     filosofos = []  # Limpiar la lista de filósofos
 
-    return JsonResponse({"status": "Simulation stopped"})
+    return JsonResponse({"status": "Filósofos-Comensales se ha detenido, por favor, espere a que culmine el procesamiento de datos."})
 
 # Función para obtener y limpiar el registro de eventos
 @csrf_exempt

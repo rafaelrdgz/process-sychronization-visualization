@@ -1,0 +1,327 @@
+**************************************************
+Algoritmo de Lector-Escritor
+
+Cantidad de lectores: 3
+    Lector 0 leyó 8 veces
+    Lector 1 leyó 9 veces
+    Lector 2 leyó 9 veces
+Tiempo máximo de lectura: 0.98 segundos
+
+Cantidad de escritores: 3
+    Escritor 0 escribió 5 veces
+    Escritor 1 escribió 5 veces
+    Escritor 2 escribió 5 veces
+Tiempo máximo de escritura: 0.98 segundos
+
+Tiempo total de ejecución del algoritmo: 17.20 segundos
+**************************************************
+**************************************************
+Algoritmo de Lector-Escritor
+
+Cantidad de lectores: 3
+    Lector 0 leyó 12 veces
+    Lector 1 leyó 11 veces
+    Lector 2 leyó 10 veces
+Tiempo máximo de lectura: 0.97 segundos
+
+Cantidad de escritores: 3
+    Escritor 0 escribió 5 veces
+    Escritor 1 escribió 5 veces
+    Escritor 2 escribió 5 veces
+Tiempo máximo de escritura: 0.92 segundos
+
+Tiempo total de ejecución del algoritmo: 17.64 segundos
+**************************************************
+**************************************************
+Algoritmo Filósofos-Comensales
+
+Cantidad de filósofos: 10
+    Filósofo 0 pensó 1 veces
+    Filósofo 0 comió 1 veces
+    Filósofo 1 pensó 1 veces
+    Filósofo 1 comió 1 veces
+    Filósofo 2 pensó 1 veces
+    Filósofo 2 comió 1 veces
+    Filósofo 3 pensó 1 veces
+    Filósofo 3 comió 1 veces
+    Filósofo 4 pensó 1 veces
+    Filósofo 4 comió 1 veces
+    Filósofo 5 pensó 1 veces
+    Filósofo 5 comió 1 veces
+    Filósofo 6 pensó 1 veces
+    Filósofo 6 comió 1 veces
+    Filósofo 7 pensó 1 veces
+    Filósofo 7 comió 1 veces
+    Filósofo 8 pensó 1 veces
+    Filósofo 8 comió 1 veces
+    Filósofo 9 pensó 1 veces
+    Filósofo 9 comió 1 veces
+
+Tiempo máximo comiendo: 5.00 segundos
+Tiempo máximo pensando: 5.00 segundos
+Tiempo total de ejecución del algoritmo: 16.00 segundos
+**************************************************
+**************************************************
+Algoritmo Productor-Consumidor
+
+Cantidad de productores: 5
+    Productor 1 produjo 4 items
+    Productor 2 produjo 3 items
+    Productor 3 produjo 2 items
+    Productor 4 produjo 4 items
+    Productor 5 produjo 4 items
+Tiempo máximo de producción: 0.72 segundos
+
+Cantidad de consumidores: 5
+    Consumidor 1 consumió 3 items
+    Consumidor 2 consumió 2 items
+    Consumidor 3 consumió 2 items
+    Consumidor 4 consumió 2 items
+    Consumidor 5 consumió 2 items
+Tiempo máximo de consumición: 0.92 segundos
+
+Tiempo total de ejecución del algoritmo: 2.87 segundos
+**************************************************
+**************************************************
+Algoritmo de Lector-Escritor
+
+Cantidad de lectores: 5
+    Lector 0 leyó 2 veces
+    Lector 1 leyó 1 veces
+    Lector 2 leyó 1 veces
+    Lector 3 leyó 1 veces
+    Lector 4 leyó 1 veces
+Tiempo máximo de lectura: 2.93 segundos
+
+Cantidad de escritores: 2
+    Escritor 0 escribió 1 veces
+    Escritor 1 escribió 1 veces
+Tiempo máximo de escritura: 2.05 segundos
+
+Tiempo total de ejecución del algoritmo: 6.90 segundos
+**************************************************
+**************************************************
+Algoritmo Filósofos-Comensales
+
+Cantidad de filósofos: 10
+    Filósofo 0 pensó 1 veces
+    Filósofo 0 comió 1 veces
+    Filósofo 1 pensó 1 veces
+    Filósofo 1 comió 1 veces
+    Filósofo 2 pensó 1 veces
+    Filósofo 2 comió 1 veces
+    Filósofo 3 pensó 1 veces
+    Filósofo 3 comió 1 veces
+    Filósofo 4 pensó 1 veces
+    Filósofo 4 comió 1 veces
+    Filósofo 5 pensó 1 veces
+    Filósofo 5 comió 1 veces
+    Filósofo 6 pensó 1 veces
+    Filósofo 6 comió 1 veces
+    Filósofo 7 pensó 1 veces
+    Filósofo 7 comió 1 veces
+    Filósofo 8 pensó 1 veces
+    Filósofo 8 comió 1 veces
+    Filósofo 9 pensó 1 veces
+    Filósofo 9 comió 1 veces
+
+Tiempo máximo comiendo: 5.00 segundos
+Tiempo máximo pensando: 5.00 segundos
+Tiempo total de ejecución del algoritmo: 19.01 segundos
+**************************************************
+**************************************************
+Algoritmo Filósofos-Comensales
+
+Cantidad de filósofos: 10
+    Filósofo 0 pensó 2 veces
+    Filósofo 0 comió 2 veces
+    Filósofo 1 pensó 1 veces
+    Filósofo 1 comió 1 veces
+    Filósofo 2 pensó 1 veces
+    Filósofo 2 comió 1 veces
+    Filósofo 3 pensó 2 veces
+    Filósofo 3 comió 2 veces
+    Filósofo 4 pensó 1 veces
+    Filósofo 4 comió 1 veces
+    Filósofo 5 pensó 1 veces
+    Filósofo 5 comió 1 veces
+    Filósofo 6 pensó 1 veces
+    Filósofo 6 comió 1 veces
+    Filósofo 7 pensó 2 veces
+    Filósofo 7 comió 2 veces
+    Filósofo 8 pensó 1 veces
+    Filósofo 8 comió 1 veces
+    Filósofo 9 pensó 1 veces
+    Filósofo 9 comió 1 veces
+
+Tiempo máximo comiendo: 5.00 segundos
+Tiempo máximo pensando: 5.00 segundos
+Tiempo total de ejecución del algoritmo: 20.03 segundos
+**************************************************
+**************************************************
+Algoritmo Productor-Consumidor
+
+Cantidad de productores: 5
+    Productor 1 produjo 6 items
+    Productor 2 produjo 8 items
+    Productor 3 produjo 7 items
+    Productor 4 produjo 8 items
+    Productor 5 produjo 6 items
+Tiempo máximo de producción: 0.99 segundos
+
+Cantidad de consumidores: 5
+    Consumidor 1 consumió 7 items
+    Consumidor 2 consumió 6 items
+    Consumidor 3 consumió 6 items
+    Consumidor 4 consumió 5 items
+    Consumidor 5 consumió 5 items
+Tiempo máximo de consumición: 0.98 segundos
+
+Tiempo total de ejecución del algoritmo: 6.03 segundos
+**************************************************
+**************************************************
+Algoritmo de Lector-Escritor
+
+Cantidad de lectores: 5
+    Lector 0 leyó 2 veces
+    Lector 1 leyó 1 veces
+    Lector 2 leyó 2 veces
+    Lector 3 leyó 2 veces
+    Lector 4 leyó 2 veces
+Tiempo máximo de lectura: 2.75 segundos
+
+Cantidad de escritores: 2
+    Escritor 0 escribió 1 veces
+    Escritor 1 escribió 1 veces
+Tiempo máximo de escritura: 1.67 segundos
+
+Tiempo total de ejecución del algoritmo: 6.99 segundos
+**************************************************
+**************************************************
+Algoritmo Filósofos-Comensales
+
+Cantidad de filósofos: 5
+    Filósofo 0 pensó 1 veces
+    Filósofo 0 comió 1 veces
+    Filósofo 1 pensó 1 veces
+    Filósofo 1 comió 1 veces
+    Filósofo 2 pensó 1 veces
+    Filósofo 2 comió 1 veces
+    Filósofo 3 pensó 1 veces
+    Filósofo 3 comió 1 veces
+    Filósofo 4 pensó 1 veces
+    Filósofo 4 comió 1 veces
+
+Tiempo máximo comiendo: 3.00 segundos
+Tiempo máximo pensando: 5.00 segundos
+Tiempo total de ejecución del algoritmo: 10.04 segundos
+**************************************************
+**************************************************
+Algoritmo Filósofos-Comensales
+
+Cantidad de filósofos: 5
+    Filósofo 0 pensó 2 veces
+    Filósofo 0 comió 2 veces
+    Filósofo 1 pensó 1 veces
+    Filósofo 1 comió 1 veces
+    Filósofo 2 pensó 2 veces
+    Filósofo 2 comió 2 veces
+    Filósofo 3 pensó 2 veces
+    Filósofo 3 comió 2 veces
+    Filósofo 4 pensó 2 veces
+    Filósofo 4 comió 2 veces
+
+Tiempo máximo comiendo: 5.00 segundos
+Tiempo máximo pensando: 5.00 segundos
+Tiempo total de ejecución del algoritmo: 17.22 segundos
+**************************************************
+**************************************************
+Algoritmo Productor-Consumidor
+
+Cantidad de productores: 5
+    Productor 1 produjo 4 items
+    Productor 2 produjo 4 items
+    Productor 3 produjo 4 items
+    Productor 4 produjo 3 items
+    Productor 5 produjo 4 items
+Tiempo máximo de producción: 0.97 segundos
+
+Cantidad de consumidores: 5
+    Consumidor 1 consumió 3 items
+    Consumidor 2 consumió 2 items
+    Consumidor 3 consumió 3 items
+    Consumidor 4 consumió 2 items
+    Consumidor 5 consumió 2 items
+Tiempo máximo de consumición: 0.71 segundos
+
+Tiempo total de ejecución del algoritmo: 3.15 segundos
+**************************************************
+**************************************************
+Algoritmo Productor-Consumidor
+
+Cantidad de productores: 1
+    Productor 1 produjo 7 items
+Tiempo máximo de producción: 0.92 segundos
+
+Cantidad de consumidores: 1
+    Consumidor 1 consumió 5 items
+Tiempo máximo de consumición: 0.82 segundos
+
+Tiempo total de ejecución del algoritmo: 3.30 segundos
+**************************************************
+**************************************************
+Algoritmo Filósofos-Comensales
+
+Cantidad de filósofos: 5
+    Filósofo 0 pensó 1 veces
+    Filósofo 0 comió 1 veces
+    Filósofo 1 pensó 1 veces
+    Filósofo 1 comió 1 veces
+    Filósofo 2 pensó 1 veces
+    Filósofo 2 comió 1 veces
+    Filósofo 3 pensó 1 veces
+    Filósofo 3 comió 1 veces
+    Filósofo 4 pensó 1 veces
+    Filósofo 4 comió 1 veces
+
+Tiempo máximo comiendo: 5.00 segundos
+Tiempo máximo pensando: 5.00 segundos
+Tiempo total de ejecución del algoritmo: 13.02 segundos
+**************************************************
+**************************************************
+Algoritmo de Lector-Escritor
+
+Cantidad de lectores: 5
+    Lector 0 leyó 2 veces
+    Lector 1 leyó 2 veces
+    Lector 2 leyó 1 veces
+    Lector 3 leyó 2 veces
+    Lector 4 leyó 2 veces
+Tiempo máximo de lectura: 2.97 segundos
+
+Cantidad de escritores: 2
+    Escritor 0 escribió 1 veces
+    Escritor 1 escribió 1 veces
+Tiempo máximo de escritura: 0.84 segundos
+
+Tiempo total de ejecución del algoritmo: 7.84 segundos
+**************************************************
+**************************************************
+Algoritmo de Lector-Escritor
+
+Cantidad de lectores: 5
+    Lector 0 leyó 2 veces
+    Lector 1 leyó 1 veces
+    Lector 2 leyó 1 veces
+    Lector 3 leyó 2 veces
+    Lector 4 leyó 1 veces
+Tiempo máximo de lectura: 2.70 segundos
+
+Cantidad de escritores: 2
+    Escritor 0 escribió 1 veces
+    Escritor 1 escribió 1 veces
+Tiempo máximo de escritura: 2.38 segundos
+
+Tiempo total de ejecución del algoritmo: 7.67 segundos
+
+**************************************************
